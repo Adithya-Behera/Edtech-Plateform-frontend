@@ -18,6 +18,7 @@ const ContactUsForm = () => {
     // console.log("Form Data - ", data)
     try {
       setLoading(true)
+      // eslint-disable-next-line no-unused-vars
       const res = await apiConnector(
         "POST",
         contactusEndpoint.CONTACT_US_API,

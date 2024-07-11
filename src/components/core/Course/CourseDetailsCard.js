@@ -19,6 +19,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
   const {
     thumbnail: ThumbnailImage,
     price: CurrentPrice,
+    // eslint-disable-next-line no-unused-vars
     _id: courseId,
   } = course
 
